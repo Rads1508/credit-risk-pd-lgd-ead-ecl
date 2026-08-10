@@ -16,7 +16,7 @@ src/
 saved_objects/
   pd_scorecard.csv                Final PD scorecard (points per variable/bin)
 
-Raw and processed data files, and large model pickles, are excluded via .gitignore (regeneratable / too large for version control) — see Data below.
+Raw and processed data files, and large model pickles, are excluded via .gitignore (regeneratable / too large for version control), see Data below.
 
 Methodology
 
@@ -51,7 +51,7 @@ Beta Regression fit on the defaulted population, with the target constructed as 
 
 Results (Out-of-Time): MAE ≈ 0.072, R² ≈ 0.31–0.34, Spearman ≈ 0.37–0.41 , consistent across Development/Validation/OOT.
 
-Key drivers: secured_flag and b_util_ratio were the strongest significant predictors. Several state-level variables were also significant, suggesting geographic variation in recovery outcomes worth further investigation. Model diagnostics (actual-vs-predicted, residual analysis) show the model compresses predictions toward the population mean, under-differentiating extreme LGD outcomes — a known, well-documented challenge in LGD modeling generally.
+Key drivers: secured_flag and b_util_ratio were the strongest significant predictors. Several state-level variables were also significant, suggesting geographic variation in recovery outcomes worth further investigation. Model diagnostics (actual-vs-predicted, residual analysis) show the model compresses predictions toward the population mean, under-differentiating extreme LGD outcomes.
 
 Notebook 3: EAD Model
 
