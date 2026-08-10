@@ -39,9 +39,9 @@ WOE binning and Information Value analysis (categorical/discrete via manual binn
 Results (Out-of-Time):
 
 Metric	Train	Validation	OOT
-AUC	0.789	0.784	0.787
-Gini	0.578	0.569	0.574
-KS	0.433	0.429	0.435
+AUC	    0.789	  0.784	    0.787
+Gini	0.578	  0.569	    0.574
+KS	    0.433	  0.429	    0.435
 
 Stable performance across all three samples indicates good generalization with no meaningful overfitting. Model validated with decile/gains tables, rank-order checks, and calibration analysis.
 
@@ -70,12 +70,12 @@ Already-defaulted accounts: PD = 1 (default has already occurred), LGD from the 
 
 **Portfolio-level results:**
 
-	Performing	Defaulted	Total
-Accounts	243,959	5,506	249,465
-Avg PD	3.58%	100%	5.71%
-Avg LGD	86.92%	79.75%	86.76%
-Avg EAD	4,850.26	5,740.66	4,869.91
-Portfolio ECL	$38,252,008.61	$25,180,773.22	$63,432,781.83
+	            Performing	     Defaulted	      Total
+Accounts         243,959	      5,506	          249,465
+Avg PD	         3.58%	          100%	          5.71%
+Avg LGD	         86.92%	          79.75%	      86.76%
+Avg EAD	         4,850.26	      5,740.66        4,869.91
+Portfolio ECL	 $38,252,008.61	  $25,180,773.22  $63,432,781.83
 
 Notable finding: although already-defaulted accounts represent only 2.2% of the portfolio by count, they contribute approximately 39.7% of total portfolio ECL, a concrete demonstration of why IFRS 9 mandates including Stage 3 accounts in the reserve calculation, rather than treating ECL as a performing-portfolio-only exercise.
 
