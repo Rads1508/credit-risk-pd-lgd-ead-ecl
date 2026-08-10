@@ -1,0 +1,15 @@
+# data (too large / regeneratable)
+data/raw/
+data/processed/
+
+# saved model artifacts (large pickles)
+saved_objects/*.pkl
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# env
+.env
+venv/
