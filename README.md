@@ -1,6 +1,6 @@
 **Credit Risk Modeling: PD, LGD, EAD & IFRS 9 ECL**
 
-An end-to-end credit risk model suite built on a simulated credit card portfolio (1,000,000 account-month records), covering Behavioral PD, LGD, EAD, and a full IFRS 9-aligned Expected Credit Loss calculation from raw data through model development, validation, and portfolio-level reserve estimation.
+An end-to-end credit risk model suite built on a simulated credit card portfolio (1M account-month records), covering Behavioral PD, LGD, EAD, and a full IFRS 9-aligned Expected Credit Loss calculation from raw data through model development, validation, and portfolio-level reserve estimation.
 
 **Project Structure**
 notebooks/
